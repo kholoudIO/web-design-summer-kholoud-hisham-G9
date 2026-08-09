@@ -1,0 +1,29 @@
+
+.main-news-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.mini-news-card img {
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.main-news-card, .mini-news-card {
+    transition: transform 0.2s ease;
+}
+
+.main-news-card:hover, .mini-news-card:hover {
+    transform: translateY(-3px);
+}
+.nav-tabs-custom .nav-link.active {
+    border-bottom: 2px solid #000 !important;
+    color: #000 !important;
+}
+.extra-small {
+    font-size: 0.72rem;
+}
+.hover-white:hover {
+    color: #fff !important;
+}
